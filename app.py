@@ -15,7 +15,7 @@ print_list([1,2,3])
 def myfunc(x: int) -> None:
     print(x)
 
-myfunc("1") # output : app.py:17: error: Argument 1 to "myfunc" has incompatible type "str"; expected "int"  [arg-type]
+# myfunc("1") # output : app.py:17: error: Argument 1 to "myfunc" has incompatible type "str"; expected "int"  [arg-type]
 myfunc(1)
 
 
@@ -23,6 +23,20 @@ myfunc(1)
 def myfunc2(b: str) -> None:
     print(b)
 
-
-myfunc2(1)
+# myfunc2(1)
 myfunc2("1")
+
+
+# on function - return - str 2
+def myfunction(myparameter: int)-> str:
+    return f"{myparameter} is correct parameter"
+
+print(myfunction(12))
+
+
+# other fucntion
+def otherfucntion(myparam:int) -> str:
+    return f"{myparam}"
+
+
+print(otherfucntion(2))

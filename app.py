@@ -4,7 +4,7 @@ from datetime import datetime
 def print_list(a: list) -> None:
     print(a)
 
-
+# run this command -> mypy app.py -> following output has found.
 print_list([1,2,3])
 # print_list("1") # output - app.py:9: error: Argument 1 to "print_list" has incompatible type "str"; expected "list[Any]"  [arg-type]
 # print_list(1) # output - app.py:10: error: Argument 1 to "print_list" has incompatible type "int"; expected "list[Any]"  [arg-type]

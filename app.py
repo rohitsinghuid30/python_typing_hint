@@ -40,3 +40,11 @@ def otherfucntion(myparam:int) -> str:
 
 
 print(otherfucntion(2))
+
+
+# datetime datatype
+def mydate(param:datetime)->str:
+    return f"Current datetime is {param}"
+
+
+print(mydate(datetime.now()))

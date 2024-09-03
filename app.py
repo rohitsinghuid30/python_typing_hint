@@ -48,3 +48,16 @@ def mydate(param:datetime)->str:
 
 
 print(mydate(datetime.now()))
+
+# Return int -> int and sum
+def add(x:int)->int:
+    return x + 10
+
+print(add(10))
+
+
+# return int and return str functions
+
+
+
+
